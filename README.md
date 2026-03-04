@@ -8,13 +8,6 @@ This repository is refactored to a focused image annotation tool with:
 - drag-to-refine vertices after detection
 - image-centric JSON export
 
-## Credit and License
-
-This project is based on [VIA (Visual Interactive Annotation)](https://github.com/ox-vgg/via) by the Visual Geometry Group, University of Oxford, and includes VIA-derived source code with local modifications.
-
-- Upstream attribution and credit: [CREDITS.md](CREDITS.md)
-- VIA license text used for VIA-derived portions: [LICENSE](LICENSE)
-
 ## Frontend
 
 Main entry:
@@ -77,3 +70,14 @@ Boxes are normalized to deterministic order:
 
 - clockwise order
 - first vertex is top-left
+
+## Credit and License
+
+This project includes third-party components from:
+
+- [VIA (VGG Image Annotator)](https://github.com/ox-vgg/via), with VIA-derived source code and local modifications.
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR), used by the OCR backend and bundled `PP-OCRv5_mobile_det_infer` model assets.
+
+- Upstream attribution and credit: [CREDITS.md](CREDITS.md)
+- VIA license text used for VIA-derived portions: [LICENSE](LICENSE)
+- PaddleOCR license text (Apache 2.0): [THIRD_PARTY_LICENSES/PaddleOCR-LICENSE](THIRD_PARTY_LICENSES/PaddleOCR-LICENSE)

@@ -61,3 +61,11 @@ Response:
 ```json
 {"boxes":[[x1,y1,x2,y2,x3,y3,x4,y4], ...]}
 ```
+
+## Credit and License
+
+This backend uses PaddleOCR and a bundled `PP-OCRv5_mobile_det_infer` model directory.
+
+- PaddleOCR upstream: https://github.com/PaddlePaddle/PaddleOCR
+- Attribution details: [../CREDITS.md](../CREDITS.md)
+- PaddleOCR Apache 2.0 license: [../THIRD_PARTY_LICENSES/PaddleOCR-LICENSE](../THIRD_PARTY_LICENSES/PaddleOCR-LICENSE)
