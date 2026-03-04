@@ -8,6 +8,13 @@ This repository is refactored to a focused image annotation tool with:
 - drag-to-refine vertices after detection
 - image-centric JSON export
 
+## Credit and License
+
+This project is based on [VIA (Visual Interactive Annotation)](https://github.com/ox-vgg/via) by the Visual Geometry Group, University of Oxford, and includes VIA-derived source code with local modifications.
+
+- Upstream attribution and credit: [CREDITS.md](CREDITS.md)
+- VIA license text used for VIA-derived portions: [LICENSE](LICENSE)
+
 ## Frontend
 
 Main entry:
