@@ -32,8 +32,8 @@ Optional environment variables:
 
 - `VIA_OCR_HOST` (default `127.0.0.1`)
 - `VIA_OCR_PORT` (default `8765`)
-- `VIA_OCR_MODEL_NAME` (default `PP-OCRv5_mobile_det`)
-- `VIA_OCR_MODEL_DIR` (default `PP-OCRv5_mobile_det_infer`)
+- `VIA_OCR_MODEL_NAME` (default `PP-OCRv5_server_det`)
+- `VIA_OCR_MODEL_DIR` (default `PP-OCRv5_server_det_infer`)
 
 Notes:
 
@@ -64,7 +64,7 @@ Response:
 
 ## Credit and License
 
-This backend uses PaddleOCR and a bundled `PP-OCRv5_mobile_det_infer` model directory.
+This backend uses PaddleOCR and a bundled `PP-OCRv5_server_det_infer` model directory.
 
 - PaddleOCR upstream: https://github.com/PaddlePaddle/PaddleOCR
 - Attribution details: [../CREDITS.md](../CREDITS.md)

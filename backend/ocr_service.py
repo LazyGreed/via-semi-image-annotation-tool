@@ -9,15 +9,12 @@ from typing import Any, Iterable
 from paddleocr import TextDetection
 from flask import Flask, jsonify, request
 
-# Skip network source checks on startup; we use a local model directory.
-os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
-
 
 APP_HOST = os.environ.get("VIA_OCR_HOST", "127.0.0.1")
 APP_PORT = int(os.environ.get("VIA_OCR_PORT", "8765"))
-MODEL_NAME = os.environ.get("VIA_OCR_MODEL_NAME", "PP-OCRv5_mobile_det")
+MODEL_NAME = os.environ.get("VIA_OCR_MODEL_NAME", "PP-OCRv5_server_det")
 DEFAULT_MODEL_DIR = (
-    Path(__file__).resolve().parent.parent / "PP-OCRv5_mobile_det_infer"
+    Path(__file__).resolve().parent.parent / "PP-OCRv5_server_det_infer"
 )
 MODEL_DIR = Path(os.environ.get("VIA_OCR_MODEL_DIR", str(DEFAULT_MODEL_DIR)))
 

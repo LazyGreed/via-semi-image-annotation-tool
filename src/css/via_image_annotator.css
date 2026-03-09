@@ -4,7 +4,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   background: #eef2f6;
   color: #1c2733;
 }
@@ -66,6 +66,34 @@ body {
   background: #0e7490;
   color: #ffffff;
   border-color: #0e7490;
+}
+
+.region_editor {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.35rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.4rem;
+  background: #ffffff;
+}
+
+.region_editor_title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.region_text_input {
+  min-width: 12rem;
+}
+
+.region_ignore_label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.82rem;
+  color: #334155;
 }
 
 #via_project_name_input {

@@ -1,15 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>VIA Quadrilateral Annotator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="../css/via_image_annotator.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/via_image_annotator.css"
+    />
   </head>
 
   <body onresize="via._hook_on_browser_resize()">
     <div class="via_container" id="via_container"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="../js/_via_event.js"></script>
     <script src="../js/_via_const.js"></script>
     <script src="../js/_via_config.js"></script>
@@ -24,7 +29,7 @@
     <script src="../js/_via.js"></script>
 
     <script>
-      var via_container = document.getElementById('via_container');
+      var via_container = document.getElementById("via_container");
       var via = new _via(via_container);
     </script>
   </body>
